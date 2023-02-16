@@ -3,10 +3,10 @@ const db = require('./config/connection')
 require('console.table');
 
 
-db.connect((err) => {
-    if (err) throw err;
-    start();
-})
+// db.connect((err) => {
+//     if (err) throw err;
+//     start();
+// })
 
 // This will be the main menu options for adding and viewing the db
 const promptOptions = { 
