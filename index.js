@@ -44,7 +44,10 @@ function menu() {
 
 // functions that will be called after a prompt is selected
 function viewDepart() {
-
+    db.promise().query('SELECT * FROM employee').then(employeeInfo => {
+        console.table(employeeInfo[0])
+        menu();
+    })
 }
 
 function viewRoles() {
