@@ -27,14 +27,14 @@ INSERT INTO employee
 (first_name, last_name, role_id, manager_id)
 
 VALUES 
-("Jose", "Blay", 1, 1010)
-("Samu", "Vargas", 2, NULL)
-("Aryan", "Rakhyani", 3, 2020)
-("Joel", "Kourany", 4, NULL)
-("Andrea", "Botero", 5, 1111)
-("Camila", "Gori", 6, NULL)
-("Monica", "Solis", 7, 3030)
-("Emilio", "Mejia", 8, NULL)
-("Gia", "Mejia", 9, NULL)
-("Ricardo", "Velez", 10, 4040)
-("Bob", "Lee", 11, 5050)
+("Jose", "Blay", 1, 1010),
+("Samu", "Vargas", 2, NULL),
+("Aryan", "Rakhyani", 3, 2020),
+("Joel", "Kourany", 4, NULL),
+("Andrea", "Botero", 5, 1111),
+("Camila", "Gori", 6, NULL),
+("Monica", "Solis", 7, 3030),
+("Emilio", "Mejia", 8, NULL),
+("Gia", "Mejia", 9, NULL),
+("Ricardo", "Velez", 10, 4040),
+("Bob", "Lee", 11, 5050);
